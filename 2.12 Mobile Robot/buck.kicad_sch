@@ -675,6 +675,7 @@
     )
   )
 
+
   (junction (at 186.69 121.285) (diameter 0) (color 0 0 0 0)
     (uuid 1a01b79f-c2e5-450a-b86a-7fd4e5883b59)
   )
@@ -903,7 +904,15 @@
     (uuid fc2366f3-5430-48f8-8d12-c03d6a92beb2)
   )
 
-  (text "Buck Converter" (at 189.865 126.365 0)
+  (text "Main Power Switch" (at 97.155 73.66 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 683bbd3c-8de8-4f34-922c-48136b067e7e)
+  )
+  (text "Main Power LED" (at 36.83 81.915 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid a36f4a74-546e-4d2c-9e80-148ab74cfd26)
+  )
+  (text "Buck Converter" (at 182.245 67.945 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid e8ca1be6-b46c-45b0-8cda-8a3b942fdf1a)
   )
