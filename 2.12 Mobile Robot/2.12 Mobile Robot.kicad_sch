@@ -2288,7 +2288,7 @@
     (property "Value" "BNO085" (at 43.815 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2.12_Mobile_Robot:Adafruit_BNO085" (at 38.735 104.14 0)
+    (property "Footprint" "Adafruit:Adafruit_BNO085" (at 38.735 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 38.735 104.14 0)
