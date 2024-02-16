@@ -357,7 +357,6 @@
     )
   )
 
-
   (junction (at 71.12 137.795) (diameter 0) (color 0 0 0 0)
     (uuid 0730f805-c434-407e-a2a2-e552e9803560)
   )
@@ -817,7 +816,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R11") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "Segway V7"
@@ -854,7 +853,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "Segway V7"
@@ -924,7 +923,7 @@
           (reference "R_I2C_PULLUP1") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R_I2C_PULLUP1") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "Segway V7"
@@ -961,7 +960,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1196,7 +1195,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R13") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1233,7 +1232,7 @@
           (reference "C_i2C1") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "C_i2C1") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1408,7 +1407,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R1") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1661,7 +1660,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R15") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1757,7 +1756,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R10") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1827,7 +1826,7 @@
           (reference "R1") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R17") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1864,7 +1863,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R8") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1934,7 +1933,7 @@
           (reference "R2") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R18") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2062,7 +2061,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R19") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2099,7 +2098,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2136,7 +2135,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R12") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2239,7 +2238,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R5") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2309,7 +2308,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R6") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2346,7 +2345,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R14") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2422,7 +2421,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R16") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2576,7 +2575,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R2") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "Segway V7"
@@ -2646,7 +2645,7 @@
           (reference "R3") (unit 1)
         )
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/fe7fb835-1773-4e89-b2ff-c873e95556c2"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "Segway V7"

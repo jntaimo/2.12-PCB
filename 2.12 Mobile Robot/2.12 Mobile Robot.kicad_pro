@@ -48,14 +48,20 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -105,7 +111,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
@@ -165,9 +171,19 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "track_widths": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": true
     },
     "layer_presets": [],
     "viewports": []
@@ -177,7 +193,15 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1358900|895350|347bd956-e821-4a89-aed7-bc5580983153|4f9d61c7-0a5b-4bc6-97c9-e08799e3e5e2|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162",
+      "pin_to_pin|1358900|920750|6cf58e01-32e9-46b7-80eb-393218d76346|347bd956-e821-4a89-aed7-bc5580983153|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162",
+      "pin_to_pin|1358900|920750|6cf58e01-32e9-46b7-80eb-393218d76346|4f9d61c7-0a5b-4bc6-97c9-e08799e3e5e2|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162|/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162",
+      "pin_to_pin|755650|1701800|f72abbed-9b81-444f-817f-65e9dece76b9|842276d6-ffed-41ca-b532-cc7516ce1f02|/7775d959-b998-472b-ab8b-c8b5c0f34c21|/7775d959-b998-472b-ab8b-c8b5c0f34c21|/7775d959-b998-472b-ab8b-c8b5c0f34c21",
+      "pin_to_pin|755650|1701800|f72abbed-9b81-444f-817f-65e9dece76b9|ccdf5b30-7ae2-40ab-8e4d-236e48751d06|/7775d959-b998-472b-ab8b-c8b5c0f34c21|/7775d959-b998-472b-ab8b-c8b5c0f34c21|/7775d959-b998-472b-ab8b-c8b5c0f34c21",
+      "pin_to_pin|755650|1727200|842276d6-ffed-41ca-b532-cc7516ce1f02|ccdf5b30-7ae2-40ab-8e4d-236e48751d06|/7775d959-b998-472b-ab8b-c8b5c0f34c21|/7775d959-b998-472b-ab8b-c8b5c0f34c21|/7775d959-b998-472b-ab8b-c8b5c0f34c21",
+      "power_pin_not_driven|730250|355600|511dfa9e-e9cd-49ac-9bcd-f7a7f94f7c9d|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -377,7 +401,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "warning",
       "pin_not_driven": "warning",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -413,6 +437,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 79
       }
     ],
     "meta": {

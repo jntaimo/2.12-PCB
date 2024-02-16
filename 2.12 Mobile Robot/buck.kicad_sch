@@ -984,7 +984,7 @@
   (symbol (lib_id "Device:C") (at 186.69 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f364efd-4cbc-43ea-8fcb-336160db6642)
-    (property "Reference" "Cin1" (at 189.865 108.585 0)
+    (property "Reference" "C2" (at 189.865 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 189.865 111.125 0)
@@ -999,12 +999,15 @@
     (property "MPN" "C39232" (at 186.69 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "Cin1" (at 186.69 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4bc16234-3f7c-4db6-bca2-450bb6a45bc2))
     (pin "2" (uuid c4d5ef94-e16c-46ef-a0d5-9bcaf3dd7f60))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "Cin1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1052,7 +1055,7 @@
   (symbol (lib_id "Device:C") (at 224.155 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18917a96-3799-488a-b8e3-6c6c096ed8a0)
-    (property "Reference" "Cout1" (at 227.33 113.03 0)
+    (property "Reference" "C4" (at 227.33 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 227.33 115.57 0)
@@ -1067,12 +1070,15 @@
     (property "MPN" "C65428" (at 224.155 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "Cout1" (at 224.155 113.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 45c664e0-f398-4d2b-bb2a-8d6c426bc7fe))
     (pin "2" (uuid 84e705c3-b8cc-4a99-9314-6e5adf18c9a7))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "Cout1") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1086,7 +1092,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 210.185 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 322ef281-db65-4f33-8401-f680fb22e40e)
-    (property "Reference" "Rfbt1" (at 212.09 110.49 0)
+    (property "Reference" "R31" (at 212.09 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "56.2k" (at 212.09 113.03 0)
@@ -1101,12 +1107,15 @@
     (property "MPN" "C482887" (at 210.185 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "Rfbt1" (at 210.185 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3d1a893c-d469-480a-853e-3a22ef4b29d9))
     (pin "2" (uuid 8f3f03d0-6f94-4405-8975-6d7d0696ca55))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "Rfbt1") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1154,7 +1163,7 @@
   (symbol (lib_id "Device:R_US") (at 47.625 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 461939ac-a21f-472f-8997-f538e3194181)
-    (property "Reference" "R_PWR_LED1" (at 41.91 88.265 0)
+    (property "Reference" "R26" (at 41.91 88.265 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1kΩ" (at 43.18 91.44 0)
@@ -1174,7 +1183,7 @@
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "R_PWR_LED1") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1188,7 +1197,7 @@
   (symbol (lib_id "Device:C_Small") (at 212.725 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61c4a4cb-0985-401d-8f48-fd495d119506)
-    (property "Reference" "Cbst1" (at 215.9 82.5563 0)
+    (property "Reference" "C3" (at 215.9 82.5563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 215.9 85.0963 0)
@@ -1203,12 +1212,15 @@
     (property "MPN" "C519981" (at 212.725 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "Cbst1" (at 212.725 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a54d9a0d-b80b-403b-877c-ad8264ae445d))
     (pin "2" (uuid 3b000efb-7394-4b25-a648-11db3d1b78e8))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "Cbst1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1282,7 +1294,7 @@
   (symbol (lib_id "Device:C") (at 235.585 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82b1b3e4-d9cc-494c-a2af-542c1b677bf9)
-    (property "Reference" "Cout2" (at 238.76 113.03 0)
+    (property "Reference" "C5" (at 238.76 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 238.76 115.57 0)
@@ -1297,12 +1309,15 @@
     (property "MPN" "C65428" (at 235.585 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "Cout2" (at 235.585 113.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 03204a7c-6759-4de4-b706-75a85bbc3c92))
     (pin "2" (uuid f248b26c-27c9-4a71-b11a-b44356b3b923))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "Cout2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1316,7 +1331,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 79.375 99.695 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 842f0d42-bd9c-4c15-91ad-566bb3cc89d0)
-    (property "Reference" "R_PWR2" (at 76.835 99.06 0)
+    (property "Reference" "R28" (at 76.835 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 76.835 101.6 0)
@@ -1336,7 +1351,7 @@
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "R_PWR2") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1380,7 +1395,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 100.33 99.695 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9012598f-e89c-4beb-89bb-d063c8270d97)
-    (property "Reference" "RSE2" (at 97.79 99.06 0)
+    (property "Reference" "R29" (at 97.79 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 97.79 101.6 0)
@@ -1395,12 +1410,15 @@
     (property "MPN" "C114661" (at 100.33 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "RSE2" (at 100.33 99.695 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 43ab6816-2478-46b2-b47e-1046d15390fa))
     (pin "2" (uuid 2d6abcec-c76e-4f95-a2ea-f51b176d9757))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "RSE2") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1414,7 +1432,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 79.375 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9830921b-1620-43f4-b589-b3ab09a9dc99)
-    (property "Reference" "R_PWR1" (at 81.915 93.98 0)
+    (property "Reference" "R27" (at 81.915 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 81.915 96.52 0)
@@ -1434,7 +1452,7 @@
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "R_PWR1") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1527,7 +1545,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 135.89 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c26d26d0-8fec-4769-b7de-a2cddd3ba5b6)
-    (property "Reference" "RCs2" (at 138.43 99.06 0)
+    (property "Reference" "R30" (at 138.43 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 138.43 101.6 0)
@@ -1542,12 +1560,15 @@
     (property "MPN" "C114661" (at 135.89 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "RCs2" (at 135.89 99.695 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a38d628d-39ee-47ae-8106-be3bd3d7d0cf))
     (pin "2" (uuid 23ec20ee-5bf6-4083-9e77-7ea0f14ecc94))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "RCs2") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1633,7 +1654,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 210.185 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid deabdd43-f999-4ca2-9d7c-79ab16600b81)
-    (property "Reference" "Rfbb1" (at 212.09 116.205 0)
+    (property "Reference" "R32" (at 212.09 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 212.09 118.745 0)
@@ -1648,12 +1669,15 @@
     (property "MPN" "C22548" (at 210.185 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Name" "Rfbb1" (at 210.185 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5f3cab56-73f5-4930-b22b-de22b52a99de))
     (pin "2" (uuid 370b5094-acc5-46c1-acd9-cd192f369be2))
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/e461520b-e7f2-475d-a128-98e3df365162"
-          (reference "Rfbb1") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
       (project "Segway V7"

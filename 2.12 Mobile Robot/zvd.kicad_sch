@@ -716,7 +716,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 133.35 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b4d5c36-92f0-4f5b-a86a-75e522e17bc0)
-    (property "Reference" "#FLG04" (at 133.35 59.055 0)
+    (property "Reference" "#FLG05" (at 133.35 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 133.35 57.15 0)
@@ -732,7 +732,7 @@
     (instances
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/3499523e-0988-447b-89ea-8d43c1ae7973"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
       (project "Segway V7"
@@ -823,7 +823,7 @@
       )
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/3499523e-0988-447b-89ea-8d43c1ae7973"
-          (reference "R20") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
       (project "Segway V7"
@@ -1036,7 +1036,7 @@
       )
       (project "2.12 Mobile Robot"
         (path "/7775d959-b998-472b-ab8b-c8b5c0f34c21/3499523e-0988-447b-89ea-8d43c1ae7973"
-          (reference "R21") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
       (project "Segway V7"
