@@ -1680,7 +1680,7 @@
     (property "Value" "TCA9548APWR" (at 146.05 50.165 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2.004:SOP65P640X120-24N" (at 146.05 80.01 0)
+    (property "Footprint" "2.12_Mobile_Robot:SOP65P640X120-24N" (at 146.05 80.01 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081942_Texas-Instruments-TCA9548APWR_C130026.pdf" (at 146.05 80.01 0)
