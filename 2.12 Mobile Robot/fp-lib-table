@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "2.12_Mobile_Robot")(type "KiCad")(uri "${KIPRJMOD}/2.12_Mobile_Robot.pretty")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/JLCPCB-Kicad-Library/footprint")(options "")(descr ""))
 )
